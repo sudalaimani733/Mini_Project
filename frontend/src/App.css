@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.upload-card {
+  background-color: #1c1c1c;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  max-width: 400px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #9f7aea;
+  margin-bottom: 1.5rem;
+}
+
+.file-input {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background: #2c2c2c;
+  border: 1px solid #444;
+  border-radius: 10px;
+  color: #ccc;
+  width: 100%;
+}
+
+.upload-btn {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  border: none;
+  padding: 0.7rem 2rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.real {
+  color: #00ff00;
+}
+
+.fake {
+  color: #ff0000;
+}

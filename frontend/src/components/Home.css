@@ -1,0 +1,63 @@
+.home-container {
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #6a11cb, #2575fc, #ff6ec4, #48c6ef);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .content {
+    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  }
+  
+  .main-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease forwards;
+  }
+  
+  .sub-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+    animation: fadeIn 3s ease forwards;
+  }
+  
+  .start-btn {
+    font-size: 20px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .start-btn:hover {
+    transform: scale(1.1);
+    background-color: #00c6ff;
+    color: black;
+  }
+  
+  /* Background animation */
+  @keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+  
+  /* Text fade-in */
+  @keyframes fadeIn {
+    0% {opacity: 0; transform: translateY(30px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+  
